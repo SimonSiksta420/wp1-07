@@ -12,7 +12,7 @@ $age = "8";
 <body>
 
 <?php
-if ($age <= 10)  {
+if ($age =< 10)  {
     $entryfee = 50;
     }
 
