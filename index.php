@@ -12,12 +12,11 @@ $age = "5";
 <body>
 
 <?php
-if (($age <= 10 ) && ($age >= 65)) {
+if ($age <= 10)  {
     $entryfee = 50;
-} else {
-    $entryfee = 120;
+} if ($age >= 65) {
+    $entryfee = 50;
 }
-
 if (($age >= 15) && ($age <= 26)) {
     $entryfee = 80;
 }
