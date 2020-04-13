@@ -1,6 +1,6 @@
 <?php
 $entryfee;
-$age = "69";
+$age = "9";
 ?>
 <!DOCTYPE html>
 <html lang="en">
