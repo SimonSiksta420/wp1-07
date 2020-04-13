@@ -12,13 +12,14 @@ $age = "48";
 <body>
 
 <?php
-if ($age >= 65) {
-    $entryfee = 60;
-}if (($age >= 15) || ($age <= 26 )) {
+if (($age <= 10) || ($age >= 65)) {
+    $entryfee = 50;
+} if (($age >= 15) && ($age <= 26)) {
     $entryfee = 80;
-}else {
+} else {
     $entryfee = 120;
 }
+
 ?>
 
 <p> Je vám <?= $age ?> Musíte zaplatit <?= $entryfee ?> Korun. </p>
