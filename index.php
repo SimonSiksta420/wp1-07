@@ -1,6 +1,6 @@
 <?php
 $entryfee;
-$age = "5";
+$age = "69";
 $height = "140";
 ?>
 <!DOCTYPE html>
@@ -16,7 +16,10 @@ $height = "140";
 if (($height <= 140) && ($age <= 10) || ($age >= 65)) {
     $entryfee = 50;
 }
-if (($age >= 15) && ($age <= 26)) {
+elseif (($height >= 140) && ($age <= 10)) {
+    $entryfee = 50;
+}
+elseif (($age >= 15) && ($age <= 26)) {
     $entryfee = 80;
 }
 else {
