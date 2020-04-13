@@ -13,7 +13,7 @@ $height = "140";
 <body>
 
 <?php
-if (($height <= 140) ($age <= 10) || ($age >= 65)) {
+if (($height <= 140) && ($age <= 10) || ($age >= 65)) {
     $entryfee = 50;
 }
 if (($age >= 15) && ($age <= 26)) {
