@@ -19,8 +19,6 @@ if (($age <= 10) || ($age >= 65 )) {
 }else {
     $entryfee = 120;
 }
-
-
 ?>
 
 <p> Je vám <?= $age ?> Musíte zaplatit <?= $entryfee ?> Korun. </p>
